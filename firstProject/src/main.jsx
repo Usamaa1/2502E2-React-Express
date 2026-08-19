@@ -3,17 +3,19 @@ import { createRoot } from 'react-dom/client'
 import { FirstComponent } from './FirstComponent'
 import ApniMarziKaNamm from './SecondComponent'
 import {ThirdComponent as EkAurNaam} from './SecondComponent'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { MyCardComponent } from './MyCardComponent'
-
+import './index.css'
+import MyHeroSection from './MyHeroSection'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <h1>Hello World</h1>
+    {/* <h1>Hello World</h1>
     <FirstComponent></FirstComponent>
     <ApniMarziKaNamm></ApniMarziKaNamm>
     <EkAurNaam></EkAurNaam>
-    <MyCardComponent></MyCardComponent>
+    <MyCardComponent></MyCardComponent> */}
+    <MyHeroSection></MyHeroSection>
   </StrictMode>,
 )
