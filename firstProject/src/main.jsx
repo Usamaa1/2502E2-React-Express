@@ -16,6 +16,7 @@ createRoot(document.getElementById('root')).render(
     <ApniMarziKaNamm></ApniMarziKaNamm>
     <EkAurNaam></EkAurNaam>
     <MyCardComponent></MyCardComponent> */}
-    <MyHeroSection></MyHeroSection>
+    {/* <MyHeroSection></MyHeroSection> */}
+        <FirstComponent></FirstComponent>
   </StrictMode>,
 )
