@@ -18,5 +18,6 @@ createRoot(document.getElementById('root')).render(
     <MyCardComponent></MyCardComponent> */}
     {/* <MyHeroSection></MyHeroSection> */}
         <FirstComponent></FirstComponent>
+
   </StrictMode>,
 )

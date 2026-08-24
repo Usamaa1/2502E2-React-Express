@@ -1,6 +1,9 @@
 import Button from '@mui/material/Button';
 import MyRatingComponent from './MyRatingComponent';
 import MyEmojiRatingComponent from './MyEmojiRatingComponent';
+import MyTextSkeleton from './MyTextSkeleton';
+import MyCardSkeleton from './MyCardSkeleton';
+import MyDrawer from './MyDrawer';
 
 export const FirstComponent = ()=>{
 
@@ -10,6 +13,9 @@ export const FirstComponent = ()=>{
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, facere, sequi dignissimos deleniti quae quo sunt hic debitis ab praesentium, tenetur repellendus. Delectus ullam consequuntur doloribus. Aliquid ab pariatur accusantium!</p>
     <MyRatingComponent></MyRatingComponent>
     <MyEmojiRatingComponent></MyEmojiRatingComponent>
+    <MyTextSkeleton></MyTextSkeleton>
+    <MyCardSkeleton></MyCardSkeleton>
+    <MyDrawer></MyDrawer>
     
     </>
 
