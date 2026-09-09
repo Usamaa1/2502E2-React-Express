@@ -16,6 +16,7 @@ function MyNavbar() {
             <Nav.Link as={Link} to="/useState">UseState</Nav.Link>
             <Nav.Link as={Link} to="/useEffect">UseEffect</Nav.Link>
             <Nav.Link as={Link} to="/useRef">UseRef</Nav.Link>
+            <Nav.Link as={Link} to="/useNavigate">UseNavigate</Nav.Link>
            
           </Nav>
         </Navbar.Collapse>

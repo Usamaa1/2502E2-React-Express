@@ -8,6 +8,7 @@ import { Home } from './Pages/Home.jsx';
 import { MyUseEffect } from './HooksComponent/MyUseEffect.jsx';
 import { MyUseState } from './HooksComponent/MyUseState.jsx';
 import { MyUseRef } from './HooksComponent/MyUseRef.jsx';
+import { MyUseNavigate } from './HooksComponent/MyUseNavigate.jsx';
 
 
 const router = createBrowserRouter([
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "useRef",
         Component: MyUseRef
+      },
+      {
+        path: "useNavigate",
+        Component: MyUseNavigate
       },
     
     ]
