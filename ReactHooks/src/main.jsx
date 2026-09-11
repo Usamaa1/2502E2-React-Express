@@ -9,6 +9,7 @@ import { MyUseEffect } from './HooksComponent/MyUseEffect.jsx';
 import { MyUseState } from './HooksComponent/MyUseState.jsx';
 import { MyUseRef } from './HooksComponent/MyUseRef.jsx';
 import { MyUseNavigate } from './HooksComponent/MyUseNavigate.jsx';
+import {MyContextAPI } from './HooksComponent/Context/MyContextAPI.jsx';
 
 
 const router = createBrowserRouter([
@@ -43,6 +44,9 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <MyContextAPI>
     <RouterProvider router={router} />
+
+    </MyContextAPI>
   </StrictMode>
 )

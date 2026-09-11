@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import { Button, Container } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
+import {userData } from './Context/MyContextAPI';
 
 
 export const MyUseRef = () => {
@@ -10,7 +11,7 @@ export const MyUseRef = () => {
   const email = useRef();
   const password = useRef();
 
-
+  const {user} = userData();
  
   const submitHandler = (e)=>{
 
@@ -30,6 +31,7 @@ export const MyUseRef = () => {
   return (
     <div>
       <h1 className='text-center'>MyUseRef</h1>
+      <h2>Welcome {user.firstName}!</h2>
       <Container>
         <Form onSubmit={submitHandler}>
           <Form.Group className="mb-3" controlId="formGroupPassword">
