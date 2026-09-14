@@ -10,6 +10,7 @@ import { MyUseState } from './HooksComponent/MyUseState.jsx';
 import { MyUseRef } from './HooksComponent/MyUseRef.jsx';
 import { MyUseNavigate } from './HooksComponent/MyUseNavigate.jsx';
 import {MyContextAPI } from './HooksComponent/Context/MyContextAPI.jsx';
+import { MyReactHookForm } from './HooksComponent/MyReactHookForm.jsx';
 
 
 const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "useNavigate",
         Component: MyUseNavigate
+      },
+      {
+        path: "hookForm",
+        Component: MyReactHookForm
       },
     
     ]
