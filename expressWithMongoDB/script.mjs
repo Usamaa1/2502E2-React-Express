@@ -2,6 +2,7 @@ import express from 'express';
 import 'dotenv/config'
 import { connectToMongoDB } from './connection/connection.mjs';
 import postRoute from './routes/postRoute.mjs';
+import userRoute from './routes/userRoute.mjs';
 
 
 connectToMongoDB();
@@ -17,6 +18,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api',postRoute);
+app.use('/api',userRoute);
 
 
 
